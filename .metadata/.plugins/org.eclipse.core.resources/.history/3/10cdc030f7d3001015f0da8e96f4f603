@@ -1,0 +1,17 @@
+package com.auth_service;
+
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+public class EncryptPassword {
+
+	public static void main(String[] args) {
+		
+		// Create password encoder
+        PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        
+        System.out.println(passwordEncoder.encode("Ajay@123"));
+
+	}
+
+}

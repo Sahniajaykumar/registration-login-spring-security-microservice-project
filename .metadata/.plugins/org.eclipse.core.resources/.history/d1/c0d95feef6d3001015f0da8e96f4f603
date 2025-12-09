@@ -1,0 +1,5 @@
+package com.auth_service.payload;
+
+public class APIResponse {
+
+}
