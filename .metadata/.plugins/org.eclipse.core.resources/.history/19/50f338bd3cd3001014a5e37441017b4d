@@ -1,5 +1,0 @@
-package com.microservice_2;
-
-public interface Client {
-
-}
